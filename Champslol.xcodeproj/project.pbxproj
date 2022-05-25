@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D48BD09283EDA0000176629 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D48BD08283EDA0000176629 /* AppDelegate.swift */; };
+		3D48BD0B283EDA0000176629 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D48BD0A283EDA0000176629 /* ViewController.swift */; };
+		3D48BD0E283EDA0000176629 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D48BD0C283EDA0000176629 /* Main.storyboard */; };
+		3D48BD10283EDA0500176629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D48BD0F283EDA0500176629 /* Assets.xcassets */; };
+		3D48BD13283EDA0500176629 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D48BD11283EDA0500176629 /* LaunchScreen.storyboard */; };
+		3D48BD1E283EDA0500176629 /* ChampslolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D48BD1D283EDA0500176629 /* ChampslolTests.swift */; };
+		3D48BD29283EDA0500176629 /* ChampslolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D48BD28283EDA0500176629 /* ChampslolUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D48BD1A283EDA0500176629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D48BCFD283ED9FF00176629 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D48BD04283EDA0000176629;
+			remoteInfo = Champslol;
+		};
+		3D48BD25283EDA0500176629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D48BCFD283ED9FF00176629 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D48BD04283EDA0000176629;
+			remoteInfo = Champslol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D48BD05283EDA0000176629 /* Champslol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Champslol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D48BD08283EDA0000176629 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D48BD0A283EDA0000176629 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D48BD0D283EDA0000176629 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D48BD0F283EDA0500176629 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D48BD12283EDA0500176629 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D48BD14283EDA0500176629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D48BD19283EDA0500176629 /* ChampslolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChampslolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D48BD1D283EDA0500176629 /* ChampslolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampslolTests.swift; sourceTree = "<group>"; };
+		3D48BD1F283EDA0500176629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D48BD24283EDA0500176629 /* ChampslolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChampslolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D48BD28283EDA0500176629 /* ChampslolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampslolUITests.swift; sourceTree = "<group>"; };
+		3D48BD2A283EDA0500176629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D48BD02283EDA0000176629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D48BD16283EDA0500176629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D48BD21283EDA0500176629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D48BCFC283ED9FF00176629 = {
+			isa = PBXGroup;
+			children = (
+				3D48BD07283EDA0000176629 /* Champslol */,
+				3D48BD1C283EDA0500176629 /* ChampslolTests */,
+				3D48BD27283EDA0500176629 /* ChampslolUITests */,
+				3D48BD06283EDA0000176629 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D48BD06283EDA0000176629 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D48BD05283EDA0000176629 /* Champslol.app */,
+				3D48BD19283EDA0500176629 /* ChampslolTests.xctest */,
+				3D48BD24283EDA0500176629 /* ChampslolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D48BD07283EDA0000176629 /* Champslol */ = {
+			isa = PBXGroup;
+			children = (
+				3D48BD08283EDA0000176629 /* AppDelegate.swift */,
+				3D48BD0A283EDA0000176629 /* ViewController.swift */,
+				3D48BD0C283EDA0000176629 /* Main.storyboard */,
+				3D48BD0F283EDA0500176629 /* Assets.xcassets */,
+				3D48BD11283EDA0500176629 /* LaunchScreen.storyboard */,
+				3D48BD14283EDA0500176629 /* Info.plist */,
+			);
+			path = Champslol;
+			sourceTree = "<group>";
+		};
+		3D48BD1C283EDA0500176629 /* ChampslolTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D48BD1D283EDA0500176629 /* ChampslolTests.swift */,
+				3D48BD1F283EDA0500176629 /* Info.plist */,
+			);
+			path = ChampslolTests;
+			sourceTree = "<group>";
+		};
+		3D48BD27283EDA0500176629 /* ChampslolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D48BD28283EDA0500176629 /* ChampslolUITests.swift */,
+				3D48BD2A283EDA0500176629 /* Info.plist */,
+			);
+			path = ChampslolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D48BD04283EDA0000176629 /* Champslol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D48BD2D283EDA0500176629 /* Build configuration list for PBXNativeTarget "Champslol" */;
+			buildPhases = (
+				3D48BD01283EDA0000176629 /* Sources */,
+				3D48BD02283EDA0000176629 /* Frameworks */,
+				3D48BD03283EDA0000176629 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Champslol;
+			productName = Champslol;
+			productReference = 3D48BD05283EDA0000176629 /* Champslol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D48BD18283EDA0500176629 /* ChampslolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D48BD30283EDA0500176629 /* Build configuration list for PBXNativeTarget "ChampslolTests" */;
+			buildPhases = (
+				3D48BD15283EDA0500176629 /* Sources */,
+				3D48BD16283EDA0500176629 /* Frameworks */,
+				3D48BD17283EDA0500176629 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D48BD1B283EDA0500176629 /* PBXTargetDependency */,
+			);
+			name = ChampslolTests;
+			productName = ChampslolTests;
+			productReference = 3D48BD19283EDA0500176629 /* ChampslolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D48BD23283EDA0500176629 /* ChampslolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D48BD33283EDA0500176629 /* Build configuration list for PBXNativeTarget "ChampslolUITests" */;
+			buildPhases = (
+				3D48BD20283EDA0500176629 /* Sources */,
+				3D48BD21283EDA0500176629 /* Frameworks */,
+				3D48BD22283EDA0500176629 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D48BD26283EDA0500176629 /* PBXTargetDependency */,
+			);
+			name = ChampslolUITests;
+			productName = ChampslolUITests;
+			productReference = 3D48BD24283EDA0500176629 /* ChampslolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D48BCFD283ED9FF00176629 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Alumno;
+				TargetAttributes = {
+					3D48BD04283EDA0000176629 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					3D48BD18283EDA0500176629 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 3D48BD04283EDA0000176629;
+					};
+					3D48BD23283EDA0500176629 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 3D48BD04283EDA0000176629;
+					};
+				};
+			};
+			buildConfigurationList = 3D48BD00283ED9FF00176629 /* Build configuration list for PBXProject "Champslol" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D48BCFC283ED9FF00176629;
+			productRefGroup = 3D48BD06283EDA0000176629 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D48BD04283EDA0000176629 /* Champslol */,
+				3D48BD18283EDA0500176629 /* ChampslolTests */,
+				3D48BD23283EDA0500176629 /* ChampslolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D48BD03283EDA0000176629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D48BD13283EDA0500176629 /* LaunchScreen.storyboard in Resources */,
+				3D48BD10283EDA0500176629 /* Assets.xcassets in Resources */,
+				3D48BD0E283EDA0000176629 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D48BD17283EDA0500176629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D48BD22283EDA0500176629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D48BD01283EDA0000176629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D48BD0B283EDA0000176629 /* ViewController.swift in Sources */,
+				3D48BD09283EDA0000176629 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D48BD15283EDA0500176629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D48BD1E283EDA0500176629 /* ChampslolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D48BD20283EDA0500176629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D48BD29283EDA0500176629 /* ChampslolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D48BD1B283EDA0500176629 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D48BD04283EDA0000176629 /* Champslol */;
+			targetProxy = 3D48BD1A283EDA0500176629 /* PBXContainerItemProxy */;
+		};
+		3D48BD26283EDA0500176629 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D48BD04283EDA0000176629 /* Champslol */;
+			targetProxy = 3D48BD25283EDA0500176629 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D48BD0C283EDA0000176629 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D48BD0D283EDA0000176629 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D48BD11283EDA0500176629 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D48BD12283EDA0500176629 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D48BD2B283EDA0500176629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D48BD2C283EDA0500176629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D48BD2E283EDA0500176629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Champslol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.Champslol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D48BD2F283EDA0500176629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Champslol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.Champslol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D48BD31283EDA0500176629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChampslolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.ChampslolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Champslol.app/Champslol";
+			};
+			name = Debug;
+		};
+		3D48BD32283EDA0500176629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChampslolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.ChampslolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Champslol.app/Champslol";
+			};
+			name = Release;
+		};
+		3D48BD34283EDA0500176629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChampslolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.ChampslolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Champslol;
+			};
+			name = Debug;
+		};
+		3D48BD35283EDA0500176629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChampslolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.ChampslolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Champslol;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D48BD00283ED9FF00176629 /* Build configuration list for PBXProject "Champslol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D48BD2B283EDA0500176629 /* Debug */,
+				3D48BD2C283EDA0500176629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D48BD2D283EDA0500176629 /* Build configuration list for PBXNativeTarget "Champslol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D48BD2E283EDA0500176629 /* Debug */,
+				3D48BD2F283EDA0500176629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D48BD30283EDA0500176629 /* Build configuration list for PBXNativeTarget "ChampslolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D48BD31283EDA0500176629 /* Debug */,
+				3D48BD32283EDA0500176629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D48BD33283EDA0500176629 /* Build configuration list for PBXNativeTarget "ChampslolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D48BD34283EDA0500176629 /* Debug */,
+				3D48BD35283EDA0500176629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D48BCFD283ED9FF00176629 /* Project object */;
+}
