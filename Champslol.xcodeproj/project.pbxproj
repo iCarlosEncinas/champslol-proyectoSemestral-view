@@ -14,6 +14,9 @@
 		3D48BD13283EDA0500176629 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D48BD11283EDA0500176629 /* LaunchScreen.storyboard */; };
 		3D48BD1E283EDA0500176629 /* ChampslolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D48BD1D283EDA0500176629 /* ChampslolTests.swift */; };
 		3D48BD29283EDA0500176629 /* ChampslolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D48BD28283EDA0500176629 /* ChampslolUITests.swift */; };
+		3D48BD39283F088D00176629 /* ListChampController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D48BD38283F088D00176629 /* ListChampController.swift */; };
+		3D48BD3B283F0B6800176629 /* Champ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D48BD3A283F0B6800176629 /* Champ.swift */; };
+		3D48BD3D283F0F7D00176629 /* CellChampController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D48BD3C283F0F7D00176629 /* CellChampController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3D48BD24283EDA0500176629 /* ChampslolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChampslolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D48BD28283EDA0500176629 /* ChampslolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampslolUITests.swift; sourceTree = "<group>"; };
 		3D48BD2A283EDA0500176629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D48BD38283F088D00176629 /* ListChampController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListChampController.swift; sourceTree = "<group>"; };
+		3D48BD3A283F0B6800176629 /* Champ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Champ.swift; sourceTree = "<group>"; };
+		3D48BD3C283F0F7D00176629 /* CellChampController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellChampController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				3D48BD0F283EDA0500176629 /* Assets.xcassets */,
 				3D48BD11283EDA0500176629 /* LaunchScreen.storyboard */,
 				3D48BD14283EDA0500176629 /* Info.plist */,
+				3D48BD38283F088D00176629 /* ListChampController.swift */,
+				3D48BD3A283F0B6800176629 /* Champ.swift */,
+				3D48BD3C283F0F7D00176629 /* CellChampController.swift */,
 			);
 			path = Champslol;
 			sourceTree = "<group>";
@@ -257,7 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D48BD0B283EDA0000176629 /* ViewController.swift in Sources */,
+				3D48BD39283F088D00176629 /* ListChampController.swift in Sources */,
 				3D48BD09283EDA0000176629 /* AppDelegate.swift in Sources */,
+				3D48BD3B283F0B6800176629 /* Champ.swift in Sources */,
+				3D48BD3D283F0F7D00176629 /* CellChampController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

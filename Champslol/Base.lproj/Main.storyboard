@@ -26,10 +26,10 @@
             </objects>
             <point key="canvasLocation" x="-419" y="-237"/>
         </scene>
-        <!--View Controller-->
+        <!--List Champ Controller-->
         <scene sceneID="OVL-ob-ENV">
             <objects>
-                <viewController id="ban-HJ-k15" sceneMemberID="viewController">
+                <viewController id="ban-HJ-k15" customClass="ListChampController" customModule="Champslol" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6p0-Cv-T8c">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -126,7 +126,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="90" id="KGc-nT-1Bs">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="cellChamp" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="90" id="KGc-nT-1Bs" customClass="CellChampController" customModule="Champslol" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KGc-nT-1Bs" id="V6M-RM-CXJ">
@@ -225,14 +225,28 @@
                                                 <constraint firstItem="Dbt-Pl-3eW" firstAttribute="centerY" secondItem="V6M-RM-CXJ" secondAttribute="centerY" id="ono-Bk-UZQ"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="lblCampeon" destination="z7T-eQ-3rZ" id="CiZ-gk-W3t"/>
+                                            <outlet property="lblClase" destination="wS6-ng-ht6" id="lrq-bF-FIP"/>
+                                            <outlet property="lblEsenciaAzul" destination="kvf-3U-OVj" id="t7A-4g-5Rm"/>
+                                            <outlet property="lblFechaSalida" destination="iuX-fw-YFq" id="4LA-Ql-8pB"/>
+                                            <outlet property="lblRiotPoints" destination="Tet-VM-Sm4" id="99d-xB-zn1"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="ban-HJ-k15" id="Nr7-As-ced"/>
+                                    <outlet property="delegate" destination="ban-HJ-k15" id="vrd-5T-3GA"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="by2-k0-sfh"/>
                     </view>
                     <navigationItem key="navigationItem" id="cvd-Pt-Oek"/>
+                    <connections>
+                        <outlet property="tvChamps" destination="9bF-RT-qMz" id="DuT-wg-vHe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4zu-eB-6wQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
