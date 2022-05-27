@@ -11,9 +11,10 @@ import UIKit
 
 class CellChampController : UITableViewCell {
     
-    @IBOutlet weak var lblCampeon: UIView!
-    @IBOutlet weak var lblFechaSalida: UIView!
-    @IBOutlet weak var lblEsenciaAzul: UIView!
-    @IBOutlet weak var lblClase: UIView!
-    @IBOutlet weak var lblRiotPoints: UIView!
+    @IBOutlet weak var lblCampeon: UILabel!
+    @IBOutlet weak var lblFechaSalida: UILabel!
+    @IBOutlet weak var lblEsenciaAzul: UILabel!
+    @IBOutlet weak var lblClase: UILabel!
+    @IBOutlet weak var lblRiotPoints: UILabel!
+    
 }

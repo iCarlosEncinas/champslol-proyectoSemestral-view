@@ -17,6 +17,7 @@
 		3D48BD39283F088D00176629 /* ListChampController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D48BD38283F088D00176629 /* ListChampController.swift */; };
 		3D48BD3B283F0B6800176629 /* Champ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D48BD3A283F0B6800176629 /* Champ.swift */; };
 		3D48BD3D283F0F7D00176629 /* CellChampController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D48BD3C283F0F7D00176629 /* CellChampController.swift */; };
+		985B6E252840B35B00341935 /* DetailsChampController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985B6E242840B35B00341935 /* DetailsChampController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3D48BD38283F088D00176629 /* ListChampController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListChampController.swift; sourceTree = "<group>"; };
 		3D48BD3A283F0B6800176629 /* Champ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Champ.swift; sourceTree = "<group>"; };
 		3D48BD3C283F0F7D00176629 /* CellChampController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellChampController.swift; sourceTree = "<group>"; };
+		985B6E242840B35B00341935 /* DetailsChampController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsChampController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				3D48BD38283F088D00176629 /* ListChampController.swift */,
 				3D48BD3A283F0B6800176629 /* Champ.swift */,
 				3D48BD3C283F0F7D00176629 /* CellChampController.swift */,
+				985B6E242840B35B00341935 /* DetailsChampController.swift */,
 			);
 			path = Champslol;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				3D48BD39283F088D00176629 /* ListChampController.swift in Sources */,
 				3D48BD09283EDA0000176629 /* AppDelegate.swift in Sources */,
 				3D48BD3B283F0B6800176629 /* Champ.swift in Sources */,
+				985B6E252840B35B00341935 /* DetailsChampController.swift in Sources */,
 				3D48BD3D283F0F7D00176629 /* CellChampController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

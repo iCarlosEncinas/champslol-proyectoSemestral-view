@@ -11,7 +11,7 @@ import Foundation
 class Champ : Decodable{
     var campeon : String?
     var clase : String?
-    var fecha_lanzamiento : Date?
-    var esencia_azul : Int?
-    var riot_points : Int?
+    var fecha_lanzamiento : String?
+    var esencia_azul : String?
+    var riot_points : String?
 }
